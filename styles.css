@@ -32,10 +32,23 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
 
+button{
+  width: 6rem;
+  height: 3rem;
+  color: black;
+  background-color: #38ff98;
+  border: none;
+  border-radius: 1rem;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: grey;
+  color: #38ff98;
 }
